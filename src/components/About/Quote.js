@@ -18,6 +18,7 @@ const QuoteWrapper = styled.article`
     p.theme.dark ? p.theme.accentColor : p.theme.secondaryColor};
   box-shadow: ${props => props.theme.shadowSmall};
 
+  
   &,
   p {
     color: ${p => (p.theme.dark ? p.theme.primaryText : p.theme.primaryColor)};
