@@ -251,9 +251,13 @@
 
               <div class="card mb-3">
                 <div class="card-body">
-                  <h4 class="card-title">Disparity Map / StereoImages</h4>
+                  <h4 class="card-title">Stereo-Matching Algorithm</h4>
                   <p class="h5" style="font-size: 16px;">
                     Implemented in Python a Dynamic programming algorithm to perform stereomatching.
+                    When our eyes view a scene, the left and right eyes see slightly different things. The left and right images are known as a Stereo Pair. By matching the corresponding points in the two images, we are able to infer the depth of the scene. 
+Implemented a Stereo-Matching Algorithm in Rust which produces a Disparity Map from a stereo pair using a Dynamic Programming approach (Forward Pass and Backward Pass).
+
+The program takes less than a second to generate Disparity Maps for three different stereo pairs.
                   </p>
                   <p class="card-text"><small class="text-muted"><a href="https://github.com/matthieuschulz/voice-recognition-news-app" style="color: #888888;" target="_blank">View on GitHub</a></small></p>
                   <p class="card-text"><small class="text-muted"><a href="https://matthieuschulz.me/voice-recognition-news-app/" style="color: #888888;" target="_blank">Live Demo</a></small></p>
