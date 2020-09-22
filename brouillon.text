@@ -20,3 +20,28 @@
                   <p class="card-text"><small class="text-muted"><a href="https://github.com/matthieuschulz/tetrisAI" style="color: #888888;" target="_blank">View more Destiners on GitHub</a></small></p>
                 </div>
               </div>
+
+
+              %%%%%%%%%%%%%
+%Project 3
+%%%%%%%%%%%%%
+
+\cvevent{FPGA Microprocessor}{September 2019 - October 2019}{London, United Kingdom}
+
+\begin{itemize}
+  \item Description -- Built a simplified MIPS computer in a two-person team on an FPGA by creating schematic files using Intel Quartus Prime software.
+  \item Techs: ASSEMBLY LANGUAGE, VERILOG,  HARDWARE
+  \end{itemize}
+  \divider
+
+
+  \cvevent{Bioreactor Control System UI}{December 2019 - February 2020}{London, United Kingdom}
+
+\begin{itemize}
+  \item Description -- Group project entailing the design and implementation of a user interface and control system to control a small bioreactor.
+  \item Python used for designing the UI and C++(.ino) for control system
+  
+  \item Techs: C++, PYTHON, UI DESIGN, HARDWARE, TI MSP432 MICROCONTROLLER
+\end{itemize}
+
+\divider
