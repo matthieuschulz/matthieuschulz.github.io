@@ -16,9 +16,9 @@ window.onload = function() {
     var hours =  date.getHours();
     var minutes =  date.getMinutes();
     var current = hours + (minutes * .01);
-    if (current >= 5 && current < 19) return 'Have a nice day';
-    if (current >= 19 && current < 22) return 'Have a nice evening';
-    if (current >= 22 || current < 5) return 'Have a good night';
+    if (current >= 5 && current < 19) return 'Have a nice day!';
+    if (current >= 19 && current < 22) return 'Have a nice evening!';
+    if (current >= 22 || current < 5) return 'Have a good night!';
   }
 
   var messages = [
@@ -26,7 +26,7 @@ window.onload = function() {
     'I\'m Matthieu',
     'I have just graduated from University College London in Computer Science with First Class Honours.',
     'I\'m will be studying Data Science at Columbia University starting August 2022.<br> You can contact me at <a href="mailto:m.schulz@columbia.edu">m.schulz@columbia.edu</a>',
-    '<a target="_blank" href="https://www.linkedin.com/in/matthieuschulz">linkedin.com/matthieuschulz</a>s<br><a target="_blank" href="https://github.com/matthieuschulz">github.com/matthieuschulz</a>',
+    '<a target="_blank" href="https://www.linkedin.com/in/matthieuschulz">linkedin.com/matthieuschulz</a><br><a target="_blank" href="https://github.com/matthieuschulz">github.com/matthieuschulz</a>',
     getCurrentTime(),
     '👀 M.'
   ]
