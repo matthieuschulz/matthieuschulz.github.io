@@ -23,12 +23,12 @@ window.onload = function() {
 
   var messages = [
     'Hey there 👋',
-    'I\'m Matthieu',
+    'I\'m Matthew',
     'I have just graduated from University College London in Computer Science with First Class Honours.',
     'I\'m will be studying Data Science at Columbia University starting August 2022.<br> You can contact me at <a href="mailto:m.schulz@columbia.edu">m.schulz@columbia.edu</a>',
     '<a target="_blank" href="https://www.linkedin.com/in/matthieuschulz">linkedin.com/matthieuschulz</a><br><a target="_blank" href="https://github.com/matthieuschulz">github.com/matthieuschulz</a>',
     getCurrentTime(),
-    '👀 M.'
+    'Matthew.'
   ]
 
   var getFontSize = function() {
