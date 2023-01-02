@@ -22,13 +22,13 @@ window.onload = function() {
   }
 
   var messages = [
-    'Hey there 👋',
+    'Hello there!',
     'I\'m Matthew',
-    'I have just graduated from University College London in Computer Science with First Class Honours.',
-    'I\'m will be studying Data Science at Columbia University starting August 2022.<br> You can contact me at <a href="mailto:m.schulz@columbia.edu">m.schulz@columbia.edu</a>',
+    'I\'m studying Data Science at Columbia University since August 2022.<br> You can contact me at <a href="mailto:m.schulz@columbia.edu">m.schulz@columbia.edu</a>',
+    'Prior to this, I graduated from University College London in Computer Science with First Class Honours.',
     '<a target="_blank" href="https://www.linkedin.com/in/matthieuschulz">linkedin.com/matthieuschulz</a><br><a target="_blank" href="https://github.com/matthieuschulz">github.com/matthieuschulz</a>',
     getCurrentTime(),
-    'Matthew.'
+    'Matthew Schulz'
   ]
 
   var getFontSize = function() {
