@@ -29,7 +29,7 @@ window.onload = function() {
     'I am currently building Orsay.ai, an AI sales agent for businesses with inbound leads.',
     '<a target="_blank" href="https://www.linkedin.com/in/matthieuschulz">linkedin.com/matthieuschulz</a><br><a target="_blank" href="https://github.com/matthieuschulz">github.com/matthieuschulz</a>',
     getCurrentTime(),
-    'Matthew Schulz'
+    'Matthieu Schulz'
   ]
 
   var getFontSize = function() {
